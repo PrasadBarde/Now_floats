@@ -1,0 +1,148 @@
+body{
+  background-image:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPDMKDGp4w6TGpyFA1iZo9bC-c6-E2FI1Zpw&usqp=CAU") ;
+}
+.container {
+max-width: 800px;
+margin: 0 auto;
+padding: 20px;
+/* padding-left: 200px; */
+font-family: sans-serif;
+background-color: rgb(152, 183, 173);
+border: 4px solid brown;
+border-radius: 25px;
+display: flex;
+flex-direction: column;
+}
+.Searchcontainer{
+  max-width: 500px;
+margin: 0 auto;
+padding: 20px;
+font-family: sans-serif;
+background-color: rgb(152, 183, 173);
+border: 4px solid brown;
+border-radius: 25px;
+display: flex;
+flex-direction: column;
+}
+#left{
+  width: 50%;
+}
+#header {
+color:red;
+font-size: 40px;
+max-width: 800px;
+text-align: center;
+margin-top: 50px;
+background: #ddd;
+margin: 40px auto;
+}
+
+.current-weather,
+.favorite-locations,
+.search-location,
+.detail-weather {
+margin-top: 30px;
+}
+.current-weather,
+.favorite-locations{
+  margin-bottom: 20px;
+  
+}
+.weather-details {
+display: flex;
+align-items: center;
+}
+
+.weather-icon {
+width: 100px;
+height: 100px;
+border-radius: 50%;
+background-color: #ddd;
+margin-right: 20px;
+}
+
+.temperature {
+font-size: 36px;
+font-weight: bold;
+margin-bottom: 5px;
+}
+
+.location {
+font-size: 24px;
+margin-bottom: 5px;
+}
+
+.description {
+font-size: 18px;
+}
+#inputloc {
+height: 25px;
+width: 300px;
+}
+.searchbtn{
+  width: 250px;
+background-color: rgb(251, 255, 0);
+border-radius: 50px;
+color: rgb(8, 11, 14);
+height: 30px;
+margin-top: 20px;
+position: absolute;
+cursor: pointer;
+left: 60%;
+}
+.currenthbtn{
+  width: 250px;
+background-color: rgb(0, 255, 72);
+border-radius: 50px;
+color: rgb(8, 11, 14);
+height: 30px;
+margin-top: 20px;
+position: static;
+left: 60%;
+cursor: pointer;
+
+}
+.bothbtn{
+  width: 250px;
+background-color: rgb(193, 170, 156);
+border-radius: 50px;
+color: rgb(8, 11, 14);
+height: 30px;
+margin-top: -30px;
+position: static;
+cursor: pointer;
+margin-left: 255px;
+}
+#buttons {
+width: 80px;
+background-color: blue;
+border-radius: 50px;
+color: aliceblue;
+height: 30px;
+margin-top: 20px;
+cursor: pointer;
+
+}
+h2{
+  background-color: coral;
+  display: inline;
+  
+}
+@media screen and (max-width: 480px) {
+  .container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 20px;
+      /* padding-left: 200px; */
+      font-family: sans-serif;
+      background-color: rgb(152, 183, 173);
+      border: 4px solid brown;
+      border-radius: 25px;
+      display: flex;
+      flex-direction: column;
+    }  
+}
+.add-favorite{
+cursor: pointer;
+
+}
